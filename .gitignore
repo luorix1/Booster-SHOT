@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# logs
+logs/*
+
+# test
+multiview_detector/models.test.py
