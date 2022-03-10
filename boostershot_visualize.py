@@ -95,7 +95,7 @@ def main(args):
         
         for cam in range(base.num_cam):
             for i in range(args.depth_scales):
-                heatmap[cam, i, :] += torch.zeros(heatmap.shape[-1]).index_fill_(0, indices[cam, :, i], 1)
+                heatmap[cam, args.depth_scales - 1 - i, :] += torch.zeros(heatmap.shape[-1]).index_fill_(0, indices[cam, :, i], 1)
     
     heatmap = heatmap / float(len(test_loader))
     for cam in range(base.num_cam):
