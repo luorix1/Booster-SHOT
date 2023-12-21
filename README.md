@@ -39,9 +39,30 @@ python3 main.py --model BoosterSHOT --optimizer Adam --cls_thres 0.5 --depth_sca
 - a float value between 0 and 1
 - represents the ratio of frames for which at least one of the camera is "dropped"
 - "dropped" cameras will have their image replaced with an all-black image to simulate camera failure
-
 `--depth_scales`
 - number of homography planes
 
 `--world_feat`
 - the type of architecture to use in the final part of the model (post-homography)
+
+# Link to original paper
+PDF
+
+https://openaccess.thecvf.com/content/WACV2024/papers/Hwang_Booster-SHOT_Boosting_Stacked_Homography_Transformations_for_Multiview_Pedestrian_Detection_With_WACV_2024_paper.pdf
+
+supplementary
+
+https://openaccess.thecvf.com/content/WACV2024/supplemental/Hwang_Booster-SHOT_Boosting_Stacked_WACV_2024_supplemental.pdf
+
+# Citation
+To cite this paper, please use the bibtex below
+```
+@InProceedings{Hwang_2024_WACV,
+    author    = {Hwang, Jinwoo and Benz, Philipp and Kim, Pete},
+    title     = {Booster-SHOT: Boosting Stacked Homography Transformations for Multiview Pedestrian Detection With Attention},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2024},
+    pages     = {363-372}
+}
+```
