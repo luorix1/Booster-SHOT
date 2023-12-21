@@ -45,7 +45,7 @@ python3 main.py --model BoosterSHOT --optimizer Adam --cls_thres 0.5 --depth_sca
 `--world_feat`
 - the type of architecture to use in the final part of the model (post-homography)
 
-# Link to original paper
+## Link to original paper
 PDF
 
 https://openaccess.thecvf.com/content/WACV2024/papers/Hwang_Booster-SHOT_Boosting_Stacked_Homography_Transformations_for_Multiview_Pedestrian_Detection_With_WACV_2024_paper.pdf
@@ -54,7 +54,7 @@ supplementary
 
 https://openaccess.thecvf.com/content/WACV2024/supplemental/Hwang_Booster-SHOT_Boosting_Stacked_WACV_2024_supplemental.pdf
 
-# Citation
+## Citation
 To cite this paper, please use the bibtex below
 ```
 @InProceedings{Hwang_2024_WACV,
